@@ -98,8 +98,6 @@ public class Connect4Panel extends JPanel{
 			if (event.getSource() == buttons[0] ) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(0)){
 					int currentRow= board.getRowLocation(0);
 					board.update(currentPlayer,currentRow , 0);
@@ -114,8 +112,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[1]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(1)){
 					int currentRow= board.getRowLocation(1);
 					board.update(currentPlayer,currentRow , 1);
@@ -127,8 +123,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[2]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(2)){
 					int currentRow= board.getRowLocation(2);
 					board.update(currentPlayer,currentRow , 2);
@@ -139,8 +133,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[3]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				
 				if (!board.isColumnFull(3)){
 					int currentRow= board.getRowLocation(3);
@@ -152,8 +144,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[4]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(4)){
 					int currentRow= board.getRowLocation(4);
 					board.update(currentPlayer,currentRow , 4);
@@ -164,8 +154,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[5]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(5)){
 					int currentRow= board.getRowLocation(5);
 					board.update(currentPlayer,currentRow , 5);
@@ -176,8 +164,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[6]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(6)){
 					int currentRow= board.getRowLocation(6);
 					board.update(currentPlayer,currentRow , 6);
@@ -188,8 +174,6 @@ public class Connect4Panel extends JPanel{
 			}else if (event.getSource() == buttons[7]) {
 				JOptionPane.showConfirmDialog(null,
 						"Place piece here? ");
-				int result = JOptionPane.showConfirmDialog(null,
-						"Confirm position? (Yes/No)");
 				if (!board.isColumnFull(7)){
 					int currentRow= board.getRowLocation(7);
 					board.update(currentPlayer,currentRow , 7);
